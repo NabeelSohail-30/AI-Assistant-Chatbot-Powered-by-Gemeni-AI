@@ -1,13 +1,92 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: #282c34;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  margin: 10px 0;
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  width: 100%;
+  margin: 10vw;
+  overflow: scroll;
+}
+
+.surprise {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #61dafb;
+  border-radius: 5px;
+  background-color: #61dafb;
+  color: #282c34;
+  cursor: pointer;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  border: 1px solid #61dafb;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.input-container input {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #61dafb;
+  border-radius: 5px;
+  background-color: #61dafb;
+  color: #282c34;
+  cursor: pointer;
+  outline: none;
+}
+
+.input-container button {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #61dafb;
+  border-radius: 5px;
+  background-color: #61dafb;
+  color: #282c34;
+  cursor: pointer;
+  outline: none;
+}
+
+.answer {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #61dafb;
+  border-radius: 5px;
+  background-color: #61dafb;
+  color: #282c34;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
